@@ -1,0 +1,20 @@
+name: CapybaraScoreboard
+version: 1.0.0
+main: net.capybarasmp.scoreboard.CapybaraScoreboard
+api-version: '26.2'
+description: Sidebar scoreboard for CAPYBARA SMP (kills, deaths, playtime, lives)
+author: CapybaraSMP
+
+commands:
+  lives:
+    description: Show your lives, or manage another player's lives (admin)
+    usage: /lives [<player> <set|add|remove> <amount>]
+  capybarascoreboard:
+    description: Admin command for the scoreboard
+    usage: /capybarascoreboard reload
+    aliases: [csb]
+
+permissions:
+  capybara.admin:
+    description: Manage lives and reload the scoreboard
+    default: op

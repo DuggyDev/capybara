@@ -1,0 +1,23 @@
+# CAPYBARA SMP scoreboard configuration
+# All text uses MiniMessage: https://docs.advntr.dev/minimessage/format.html
+# <value> is replaced with the stat value.
+
+start-lives: 3
+max-lives: 20
+
+lives:
+  # Does a death cost one life?
+  lose-on-death: true
+  # What happens when a player reaches 0 lives: NONE or SPECTATOR
+  on-zero-lives: NONE
+
+scoreboard:
+  title: "<bold><gradient:#1e90ff:#00e5ff>CAPYBARA SMP</gradient></bold>"
+  # true  -> "0h 0m", "1h 24m"
+  # false -> "0m",    "1h 24m"
+  always-show-hours: true
+  lines:
+    kills: "<red>⚔ <white>Kills <red><value>"
+    deaths: "<gold>☠ <white>Deaths <gold><value>"
+    playtime: "<yellow>⏱ <white>Playtime <yellow><value>"
+    lives: "<red>❤ <white>Lives <red><value>"
