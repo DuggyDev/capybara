@@ -1,7 +1,7 @@
 name: CapybaraScoreboard
 version: 1.0.0
 main: net.capybarasmp.scoreboard.CapybaraScoreboard
-api-version: '26.2'
+api-version: '26.3'
 description: Sidebar scoreboard for CAPYBARA SMP (kills, deaths, playtime, lives)
 author: CapybaraSMP
 
